@@ -1,13 +1,14 @@
 var main = {
     init : function() {
+        var _this = this;
         $('#btn-save').on('click', function() {
-            this.save();
+            _this.save();
         });
         $('#btn-update').on('click', function() {
-            this.update();
+            _this.update();
         });
         $('#btn-delete').on('click', function() {
-            this.delete();
+            _this.delete();
         });
     },
     save : function() {
